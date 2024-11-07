@@ -1,0 +1,54 @@
+DHCP (gns3 router):
+
+
+### give ip to interface f0/0 ###
+
+configure terminal
+interface f0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+
+###Configurer le pool DHCP pour les ordinateurs###
+
+ip dhcp pool Computers
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+dns-server 8.8.8.8
+address 192.168.1.2 192.168.1.49
+
+
+##Configurer le pool DHCP pour les imprimantes###
+
+ip dhcp pool Printers
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+dns-server 8.8.8.8
+address 192.168.1.50 192.168.1.60
+
+
+####go to pc1
+ip dhcp
+
+show ip 
+
+##show dhcp ditributed ip
+
+
+
+### Pourquoi utiliser deux pools au lieu de classes ?
+
+-- Les classes sont principalement utilisées pour segmenter les configurations au sein d'un pool. Si tu veux des paramètres très différents (comme des passerelles différentes), deux pools peuvent être plus appropriés.
+
+-- Les pools permettent une distribution d'adresses plus simple et directe sans avoir à gérer les détails de classes si ce n'est pas nécessaire.
+
+
+
+
+
+
+
+
+
+
