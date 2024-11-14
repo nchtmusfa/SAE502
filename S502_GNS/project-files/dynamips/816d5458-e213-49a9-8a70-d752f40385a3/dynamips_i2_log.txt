@@ -1,0 +1,35 @@
+Nov 14 15:05:35.202 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 14 15:05:35.202 HYPERVISOR: Started on IP = localhost, TCP port = 56205.
+Nov 14 15:05:35.665 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 14 15:05:35.669 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mirza\OneDrive\Bureau\Sae502v2\project-files\dynamips 
+Nov 14 15:05:35.669 GENERAL: working_dir=C:\Users\mirza\OneDrive\Bureau\Sae502v2\project-files\dynamips
+Nov 14 15:05:35.669 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mirza\OneDrive\Bureau\Sae502v2\project-files\dynamips\fd183611-72fb-41eb-9206-ca17a7249bbf 
+Nov 14 15:05:35.673 GENERAL: working_dir=C:\Users\mirza\OneDrive\Bureau\Sae502v2\project-files\dynamips\fd183611-72fb-41eb-9206-ca17a7249bbf
+Nov 14 15:05:35.673 HYPERVISOR: exec_cmd: vm create DHCP 2 c7200 
+Nov 14 15:05:35.676 VM: VM DHCP created.
+Nov 14 15:05:35.676 HYPERVISOR: exec_cmd: vm set_con_tcp_port DHCP 5023 
+Nov 14 15:05:35.676 HYPERVISOR: exec_cmd: c7200 get_mac_addr DHCP 
+Nov 14 15:05:35.676 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:35.676 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 0 0 C7200-IO-FE 
+Nov 14 15:05:35.678 HYPERVISOR: exec_cmd: vm set_disk0 DHCP 0 
+Nov 14 15:05:35.678 HYPERVISOR: exec_cmd: vm set_exec_area DHCP 64 
+Nov 14 15:05:35.678 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:35.678 HYPERVISOR: exec_cmd: vm set_idle_pc DHCP 0x61e05870 
+Nov 14 15:05:35.682 HYPERVISOR: exec_cmd: vm set_ios DHCP C:/Users/mirza/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Nov 14 15:05:35.682 HYPERVISOR: exec_cmd: c7200 set_mac_addr DHCP ca02.5d10.0000 
+Nov 14 15:05:35.682 HYPERVISOR: exec_cmd: vm set_nvram DHCP 512 
+Nov 14 15:05:35.682 HYPERVISOR: exec_cmd: vm set_ram DHCP 288 
+Nov 14 15:05:35.682 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:35.682 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 1 0 PA-2FE-TX 
+Nov 14 15:05:35.686 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:35.686 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 2 0 PA-2FE-TX 
+Nov 14 15:05:35.686 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:35.687 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 3 0 PA-2FE-TX 
+Nov 14 15:05:35.687 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:35.687 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 4 0 PA-2FE-TX 
+Nov 14 15:05:37.702 HYPERVISOR: exec_cmd: nio create_udp udp-c5ac2d24-d36f-467a-90ac-9054d61e7564 10002 127.0.0.1 10003 
+Nov 14 15:05:37.972 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP 0 0 udp-c5ac2d24-d36f-467a-90ac-9054d61e7564 
+Nov 14 15:05:37.972 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Nov 14 15:05:38.321 HYPERVISOR: exec_cmd: nio create_udp udp-5ebcd247-85e6-418d-84ec-99fd44fd8657 10014 127.0.0.1 10015 
+Nov 14 15:05:38.335 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP 1 0 udp-5ebcd247-85e6-418d-84ec-99fd44fd8657 
+Nov 14 15:05:38.335 HYPERVISOR: exec_cmd: vm get_status DHCP 
