@@ -1,0 +1,35 @@
+Nov 14 14:38:33.638 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 14 14:38:33.640 HYPERVISOR: Started on IP = localhost, TCP port = 55101.
+Nov 14 14:38:34.082 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 14 14:38:34.083 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mirza\OneDrive\Bureau\SAE_502\project-files\dynamips 
+Nov 14 14:38:34.085 GENERAL: working_dir=C:\Users\mirza\OneDrive\Bureau\SAE_502\project-files\dynamips
+Nov 14 14:38:34.086 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mirza\OneDrive\Bureau\SAE_502\project-files\dynamips\efffb22b-a9c6-4a34-b1c4-e48a89c2fb07 
+Nov 14 14:38:34.086 GENERAL: working_dir=C:\Users\mirza\OneDrive\Bureau\SAE_502\project-files\dynamips\efffb22b-a9c6-4a34-b1c4-e48a89c2fb07
+Nov 14 14:38:34.086 HYPERVISOR: exec_cmd: vm create FW 1 c7200 
+Nov 14 14:38:34.088 VM: VM FW created.
+Nov 14 14:38:34.089 HYPERVISOR: exec_cmd: vm set_con_tcp_port FW 5013 
+Nov 14 14:38:34.089 HYPERVISOR: exec_cmd: c7200 get_mac_addr FW 
+Nov 14 14:38:34.089 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:34.089 HYPERVISOR: exec_cmd: vm slot_add_binding FW 0 0 C7200-IO-FE 
+Nov 14 14:38:34.091 HYPERVISOR: exec_cmd: vm set_disk0 FW 0 
+Nov 14 14:38:34.091 HYPERVISOR: exec_cmd: vm set_exec_area FW 64 
+Nov 14 14:38:34.092 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:34.092 HYPERVISOR: exec_cmd: vm set_idle_pc FW 0x61e05870 
+Nov 14 14:38:34.093 HYPERVISOR: exec_cmd: vm set_ios FW C:/Users/mirza/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Nov 14 14:38:34.094 HYPERVISOR: exec_cmd: c7200 set_mac_addr FW ca01.3390.0000 
+Nov 14 14:38:34.094 HYPERVISOR: exec_cmd: vm set_nvram FW 512 
+Nov 14 14:38:34.095 HYPERVISOR: exec_cmd: vm set_ram FW 288 
+Nov 14 14:38:34.095 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:34.095 HYPERVISOR: exec_cmd: vm slot_add_binding FW 1 0 PA-2FE-TX 
+Nov 14 14:38:34.095 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:34.095 HYPERVISOR: exec_cmd: vm slot_add_binding FW 2 0 PA-2FE-TX 
+Nov 14 14:38:34.095 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:34.097 HYPERVISOR: exec_cmd: vm slot_add_binding FW 3 0 PA-2FE-TX 
+Nov 14 14:38:34.097 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:34.097 HYPERVISOR: exec_cmd: vm slot_add_binding FW 4 0 PA-2FE-TX 
+Nov 14 14:38:36.250 HYPERVISOR: exec_cmd: nio create_udp udp-b49bc2b5-e9f4-4582-957d-3f229240c123 10016 127.0.0.1 10017 
+Nov 14 14:38:36.543 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FW 1 0 udp-b49bc2b5-e9f4-4582-957d-3f229240c123 
+Nov 14 14:38:36.544 HYPERVISOR: exec_cmd: vm get_status FW 
+Nov 14 14:38:36.598 HYPERVISOR: exec_cmd: nio create_udp udp-a606b735-d9e8-42c3-a5f6-cadac34bc06c 10020 127.0.0.1 10021 
+Nov 14 14:38:36.603 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FW 0 0 udp-a606b735-d9e8-42c3-a5f6-cadac34bc06c 
+Nov 14 14:38:36.603 HYPERVISOR: exec_cmd: vm get_status FW 
