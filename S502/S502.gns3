@@ -48,7 +48,7 @@
                 "drawing_id": "88a29a1f-d008-4136-a3d1-d2b8444c6ecd",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"29\" height=\"33\"><text font-family=\"MS Shell Dlg 2\" font-size=\"16.0\" fill=\"#0000ff\" fill-opacity=\"1.0\">v3</text></svg>",
+                "svg": "<svg width=\"36\" height=\"41\"><text font-family=\"MS Shell Dlg 2\" font-size=\"16.0\" fill=\"#0000ff\" fill-opacity=\"1.0\">v3</text></svg>",
                 "x": 581,
                 "y": 310,
                 "z": 2
@@ -57,7 +57,7 @@
                 "drawing_id": "5474f95b-428a-48f5-a7f5-8e46723751ab",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"29\" height=\"33\"><text font-family=\"MS Shell Dlg 2\" font-size=\"16.0\" fill=\"#ff0000\" fill-opacity=\"1.0\">v2</text></svg>",
+                "svg": "<svg width=\"36\" height=\"41\"><text font-family=\"MS Shell Dlg 2\" font-size=\"16.0\" fill=\"#ff0000\" fill-opacity=\"1.0\">v2</text></svg>",
                 "x": 461,
                 "y": -276,
                 "z": 2
