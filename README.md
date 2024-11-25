@@ -11,6 +11,7 @@ Description de l'architecture:
 ![gns3 drawio](https://github.com/user-attachments/assets/b640fe6a-480e-48d7-9895-ac9530991753)
 
 L'architecture a été décomposé en 5 versions :
+
 v1 : consiste en la réalisation du squelette du réseau SR1 (m1, m2, mA et mB)
 v2 : consiste en la réalisation du squelette du réseau SR2 (m3, m4, mC et mD)
 v3 : consiste en la réalisation du squelette du réseau SR3 (m5, m6, mF et mE)
