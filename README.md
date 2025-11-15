@@ -21,6 +21,5 @@ v5 : addressage pour les deux autres réseaux, toujours par DHCP.
 Ce projet a été fait par :  
 Mussa MIRZA - Chef de projet  
 Catarino Manuel FRANCISCO - Lead Dev  
-Youssef EL SHAMY  
 Gihed BOUGUERBA  
 Fabiano BOBEICA  
